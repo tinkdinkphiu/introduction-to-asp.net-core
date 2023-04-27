@@ -13,11 +13,21 @@ Báo cáo và source code cho bài tiểu luận giữa kỳ môn học Lập tr
 - Bootstrap
 - jQuery
 - Azure Server
+
 Các công nghệ được sử dụng trong project:
 - ASP.NET Entity Framework
 - Cách sử dụng Entity Framework:
-- - Sau khi mở project bằng Visual Studio, ta nhấn chuột phải vào project
-- - 
+  - Sau khi mở project bằng Visual Studio
+  - Ta nhấn chuột phải vào project, chọn Manage NuGet Packages
+  -  Ta cần cài đặt các package sau:
+    - Microsoft.EntityFrameworkCore.Tools
+    - Microsoft.EntityFrameworkCore.SqlServer
+    - Microsoft.EntityFrameworkCore
+  - Sau khi cài đặt hoàn tất, trên thanh tiêu đề, chọn Tools -> NuGet Package Manager -> Package Manager Console
+  - Sử dụng đoạn mã "Scaffold-DbContext "Server={YourServer}; Database=FuhoWeb;Integrated Security=true;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models"
+  - Đoạn mã trên sẽ tự động tạo các Models cũng như DbContext cho toàn bộ database.
+
+
 ## Cấu trúc project:
 - Tập tin: chứa nội dung của bài báo cáo cho toàn bộ đề tài.
 - Thư mục source: chứa tất cả mã nguồn, thư viện, file dữ liệu và các tập tin cần thiết khác.
