@@ -13,7 +13,11 @@ Báo cáo và source code cho bài tiểu luận giữa kỳ môn học Lập tr
 - Bootstrap
 - jQuery
 - Azure Server
-
+Các công nghệ được sử dụng trong project:
+- ASP.NET Entity Framework
+- Cách sử dụng Entity Framework:
+- - Sau khi mở project bằng Visual Studio, ta nhấn chuột phải vào project
+- - 
 ## Cấu trúc project:
 - Tập tin: chứa nội dung của bài báo cáo cho toàn bộ đề tài.
 - Thư mục source: chứa tất cả mã nguồn, thư viện, file dữ liệu và các tập tin cần thiết khác.
