@@ -35,6 +35,8 @@ Các công nghệ được sử dụng trong project:
 
 # Getting Started
 - Link video demo:
+  - GG Drive: https://drive.google.com/file/d/1nvvOPawfCRrOudz5BjAfJ40ThF2JuLDn/view?usp=sharing
+  - Youtube: https://youtu.be/5P2j8uHEtGQ
 - Trang web được triển khai tại: https://fuhoweb.azurewebsites.net/
 
 ## Cách triển khai website trên máy local
